@@ -9,18 +9,22 @@ una vez ejecutado  el archivo .py,  se debera ir al directorio donde se instalo 
 	
 	.\Python\Scripts
 
-instalacion de virtualenv:
--pip install virtualenv
-actualizar librerias:
--python -m pip install -U pip
-ejecutar virtualenv:
--virtualenv .
--activate (ejecutar .bat de virtualenv)
--deactivate (desactivar .bat de virtualenv)
+instalacion de virtualenv
+
+	.pip install virtualenv
+actualizar librerias
+
+	.python -m pip install -U pip
+ejecutar virtualenv
+
+	.virtualenv .
+	.activate (ejecutar .bat de virtualenv)
+	.deactivate (desactivar .bat de virtualenv)
 
 correr servidor 
-dentro de la carpeta donde este el archivo manage.py executar:
-python manage.py runserver
+#dentro de la carpeta donde este el archivo manage.py executar:
+
+	.python manage.py runserver
 
 
 nuevo projecto
