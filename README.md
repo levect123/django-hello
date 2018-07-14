@@ -1,13 +1,12 @@
 # django-hello
 
 descargar codigo py desde la siguiente direccion.
-https://bootstrap.pypa.io/get-pip.py
-	.guardar el codigo en un .py y ejecutarlo con el sigueinte comando:
+https://bootstrap.pypa.io/get-pip.py guardar el codigo en un .py y ejecutarlo con el sigueinte comando:
 
 	.python  (nombre del py)
 
 una vez ejecutado  el archivo .py,  se debera ir al directorio donde se instalo PIP, ene ste caso es :
-:\Python\Scripts
+	.\Python\Scripts
 
 instalacion de virtualenv:
 -pip install virtualenv
