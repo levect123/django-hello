@@ -28,14 +28,25 @@ correr servidor
 
 
 nuevo projecto
-situarse en pip
--pip install virtualenvwrapper-win
-*agregar a  variable de entorno a virtualenvwrapper
--mkdirvirtualenv <nombre de la carpeta>
--lsvirtualenv <- para listar los proyectos
-ver la ruta donde creo el proyecto, ir alli y ejecutar activate.bat
-instalar django en la carpeta del projecto. despues ejecutar django-admin.py startproject <nombre del proyecto>
-posteriormente  arancar el sitio
+
+#situarse en pip
+
+	.pip install virtualenvwrapper-win
+#agregar a  variable de entorno a virtualenvwrapper
+
+	.mkdirvirtualenv <nombre de la carpeta>
+	.lsvirtualenv <- para listar los proyectos #ver la ruta donde creo el proyecto
+
+ir a ruta mostrada en lsvirtualenv para arancar el server con el sigueinte comando:
+
+	.activate.bat
+
+instalar django #situarse en la carpeta del projecto. 
+despues ejecutar
+
+	.django-admin.py startproject <nombre del proyecto> 
+#posteriormente  arancar el sitio
 
 migrar el servicio
-python manage.py migrate
+
+	.python manage.py migrate
