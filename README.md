@@ -6,6 +6,7 @@ https://bootstrap.pypa.io/get-pip.py guardar el codigo en un .py y ejecutarlo co
 	.python  (nombre del py)
 
 una vez ejecutado  el archivo .py,  se debera ir al directorio donde se instalo PIP, ene ste caso es :
+	
 	.\Python\Scripts
 
 instalacion de virtualenv:
